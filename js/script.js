@@ -221,7 +221,7 @@ $(document).ready(function () {
 
 function sendEmail(e) {
   console.log(document.getElementById("contact-subject").value);
-  let email = "sw.advertising@gmail.com";
+  let email = "sw.advertising22@gmail.com";
   let body = document.getElementById("contact-body").value;
   let subject = document.getElementById("contact-subject").value;
   let mailto_link =
