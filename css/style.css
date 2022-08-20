@@ -1171,7 +1171,7 @@ ul.social-icons li.google-plus-icon a:hover {
            STATS SECTION
 ============================================ */
 #stats {
-  background: url("../img/stats/stats-bg.jpg") no-repeat fixed center;
+  background: url("../img/stats/stats-bg-compressed.jpg") no-repeat fixed center;
   background-size: cover;
 }
 #stats .vertical-heading {
