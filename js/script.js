@@ -237,87 +237,149 @@ function sendEmail(e) {
 // code to stop video from playing when modal is closed
 
 $("#modal-client-1").on("hidden.bs.modal", function (e) {
+  $("#modal-client-1 iframe").attr("src", "");
+});
+
+$("#modal-client-1").on("show.bs.modal", function (e) {
   $("#modal-client-1 iframe").attr(
     "src",
-    $("#modal-client-1 iframe").attr("src")
+    $("#modal-client-1").attr("data-url")
   );
 });
 
 $("#modal-client-2").on("hidden.bs.modal", function (e) {
+  $("#modal-client-2 iframe").attr("src", "");
+});
+
+$("#modal-client-2").on("show.bs.modal", function (e) {
   $("#modal-client-2 iframe").attr(
     "src",
-    $("#modal-client-2 iframe").attr("src")
+    $("#modal-client-2").attr("data-url")
   );
 });
 
 $("#modal-client-3").on("hidden.bs.modal", function (e) {
+  $("#modal-client-3 iframe").attr("src", "");
+});
+
+$("#modal-client-3").on("show.bs.modal", function (e) {
   $("#modal-client-3 iframe").attr(
     "src",
-    $("#modal-client-3 iframe").attr("src")
+    $("#modal-client-3").attr("data-url")
   );
 });
 
 $("#modal-client-4").on("hidden.bs.modal", function (e) {
+  $("#modal-client-4 iframe").attr("src", "");
+});
+
+$("#modal-client-4").on("show.bs.modal", function (e) {
   $("#modal-client-4 iframe").attr(
     "src",
-    $("#modal-client-4 iframe").attr("src")
+    $("#modal-client-4").attr("data-url")
   );
 });
 
 $("#modal-client-5").on("hidden.bs.modal", function (e) {
+  $("#modal-client-5 iframe").attr("src", "");
+});
+
+$("#modal-client-5").on("show.bs.modal", function (e) {
   $("#modal-client-5 iframe").attr(
     "src",
-    $("#modal-client-5 iframe").attr("src")
+    $("#modal-client-5").attr("data-url")
   );
 });
 
 $("#modal-client-6").on("hidden.bs.modal", function (e) {
+  $("#modal-client-6 iframe").attr("src", "");
+});
+
+$("#modal-client-6").on("show.bs.modal", function (e) {
   $("#modal-client-6 iframe").attr(
     "src",
-    $("#modal-client-6 iframe").attr("src")
+    $("#modal-client-6").attr("data-url")
   );
 });
 
 $("#modal-client-7").on("hidden.bs.modal", function (e) {
+  $("#modal-client-7 iframe").attr("src", "");
+});
+
+$("#modal-client-7").on("show.bs.modal", function (e) {
   $("#modal-client-7 iframe").attr(
     "src",
-    $("#modal-client-7 iframe").attr("src")
+    $("#modal-client-7").attr("data-url")
   );
 });
 
 $("#modal-client-8").on("hidden.bs.modal", function (e) {
+  $("#modal-client-8 iframe").attr("src", "");
+});
+
+$("#modal-client-8").on("show.bs.modal", function (e) {
   $("#modal-client-8 iframe").attr(
     "src",
-    $("#modal-client-8 iframe").attr("src")
+    $("#modal-client-8").attr("data-url")
   );
 });
 
 $("#modal-client-9").on("hidden.bs.modal", function (e) {
+  $("#modal-client-9 iframe").attr("src", "");
+});
+
+$("#modal-client-9").on("show.bs.modal", function (e) {
   $("#modal-client-9 iframe").attr(
     "src",
-    $("#modal-client-9 iframe").attr("src")
+    $("#modal-client-9").attr("data-url")
   );
 });
 
 $("#modal-client-10").on("hidden.bs.modal", function (e) {
+  $("#modal-client-10 iframe").attr("src", "");
+});
+
+$("#modal-client-10").on("show.bs.modal", function (e) {
   $("#modal-client-10 iframe").attr(
     "src",
-    $("#modal-client-10 iframe").attr("src")
+    $("#modal-client-10").attr("data-url")
   );
 });
 
 $("#modal-client-11").on("hidden.bs.modal", function (e) {
+  $("#modal-client-11 iframe").attr("src", "");
+});
+
+$("#modal-client-11").on("show.bs.modal", function (e) {
   $("#modal-client-11 iframe").attr(
     "src",
-    $("#modal-client-11 iframe").attr("src")
+    $("#modal-client-11").attr("data-url")
   );
 });
 
 $("#modal-client-12").on("hidden.bs.modal", function (e) {
+  $("#modal-client-12 iframe").attr("src", "");
+});
+
+$("#modal-client-12").on("show.bs.modal", function (e) {
   $("#modal-client-12 iframe").attr(
     "src",
-    $("#modal-client-12 iframe").attr("src")
+    $("#modal-client-12").attr("data-url")
   );
 });
+
+// for (var i = 1; i <= 12; i++) {
+//   $(`#modal-client-${i}`).on("hidden.bs.modal", function (e) {
+//     $(`#modal-client-${i} iframe`).attr("src", "");
+//   });
+
+//   $(`#modal-client-${i}`).on("show.bs.modal", function (e) {
+//     $(`#modal-client-${i} iframe`).attr(
+//       "src",
+//       $(`#modal-client-${i}`).attr("data-url")
+//     );
+//   });
+// }
+
 //OR
 //$(() => $("#preloader").delay(5000).fadeOut('slow'));
